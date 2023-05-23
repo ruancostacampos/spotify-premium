@@ -1,0 +1,68 @@
+@media screen and (max-width: 1170px){
+    
+    header ul {
+        display: none;
+    }
+
+    #main-buttons {
+        flex-direction: column;
+    }
+
+    #main-buttons button {
+        width: 100%;
+    }
+
+    #why-cards-container {
+        max-width: 970px;
+        gap: 140px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #premium-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .premium-card {
+        max-width: 440px;
+        width: 90%;
+    }
+
+    .premium-card ul {
+        height: auto;
+    }
+
+    footer nav {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #principal{
+        display: block;
+        height: auto;
+    }
+
+    #principal button {
+        width: 300px;
+        padding: 14px 11px;
+    }
+
+    #principal button:hover {
+        padding: 15px 12px;
+        font-size: 15px;
+    }
+
+    #why-premium {
+        text-align: center;
+    }
+
+    #choose-premium {
+        text-align: center;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
